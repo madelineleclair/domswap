@@ -15,7 +15,7 @@ Domswap is a JavaScript library that can be used to transverse and manipulate th
   * attr
   * addClass
   * removeClass
-  
+
 ### DOM Transversing
   * child
   * parent
