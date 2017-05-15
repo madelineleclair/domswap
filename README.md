@@ -5,20 +5,22 @@ Domswap is a JavaScript library that can be used to transverse and manipulate th
 ## API
 
 ### Wrapper
-  #### $l
-  #### $l.ajax
+  * $l
+  * $l.ajax
+
 ### DOM Manipulation
-  #### html
-  #### append
-  #### empty
-  #### attr
-  #### addClass
-  #### removeClass
+  * html
+  * append
+  * empty
+  * attr
+  * addClass
+  * removeClass
+  
 ### DOM Transversing
-  #### child
-  #### parent
-  #### find
-  #### remove
+  * child
+  * parent
+  * find
+  * remove
 
 ### Wrapper
   #### $l
