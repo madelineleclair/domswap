@@ -1,6 +1,6 @@
-# Domswap
+# DOM Swap
 
-Domswap is a JavaScript library that can be used to transverse and manipulate the DOM.  For a given argument, the library returns an instance of the DOMNodeCollection class. The DOMNodeCollection can contain a single element or multiple elements and methods are chainable.
+DOM Swap is a JavaScript library that can be used to transverse and manipulate the DOM.  For a given argument, the library returns an instance of the DOMNodeCollection class. The DOMNodeCollection can contain a single element or multiple elements and methods are chainable.
 
 ## API
 
