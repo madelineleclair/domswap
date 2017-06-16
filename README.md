@@ -10,9 +10,11 @@ DOM Swap is a JavaScript library that can be used to transverse and manipulate t
 
 ### DOM Manipulation
   * html
+  * val
   * append
   * empty
   * attr
+  * hasClass
   * addClass
   * removeClass
 
@@ -63,11 +65,17 @@ $l.ajax = function(object) {
   #### html
   If a string is passed to the function, it sets the inner HTML of every element in the DOMNodeCollection. If no argument is passed, it returns the inner html of the first node in the array.
 
+  #### val
+  The val function takes in a string, number, array, or no argument. If no argument is supplied, it returns the value of the first element in the collection. If a string or number is given, it sets the value of each element in the collection to the specified argument. An array is provided for input types checkbox and radio. If an array is supplied, for each item in the array, it will check or select each item in the collection if its value is contained in the argument.  
+
   #### append
   The append method excepts an wrapped collection, an HTML element, or a string. It the argument is an instance of the DOMNodeCollection or an HTML element, it adds the outer html to each element's inner html, otherwise, it adds the argument to each element's inner html.
 
   #### empty
   Clears the inner html of each element in the DOMNodeCollection.
+
+  #### hasClass
+  Takes in a class name and returns either true or false depending on if the first item in the collection contains the class.
 
   #### addClass and removeClass
     These two methods both take in a class name as an argument and either adds a class or removes a class from each element in the DOMNodeCollection. If an element already has a class name, the new class name will be added onto the old class name, giving the element multiple class names.
