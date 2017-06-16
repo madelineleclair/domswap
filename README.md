@@ -2,6 +2,9 @@
 
 DOM Swap is a JavaScript library that can be used to transverse and manipulate the DOM.  For a given argument, the library returns an instance of the DOMNodeCollection class. The DOMNodeCollection can contain a single element or multiple elements and methods are chainable.
 
+## Demo
+Remembrall is a Harry Potter todo app built using the DOM Swap library. View Rememberall [here](http://madelineleclair.us/remembrall/).
+
 ## Usage
 To use DOM Swap, download the DOM Swap library, place it in your root directory, and include the following tag in the head of your html file:
 ```html
